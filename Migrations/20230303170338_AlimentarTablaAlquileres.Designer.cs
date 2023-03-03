@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MagicHotel.Migrations
 {
     [DbContext(typeof(AplicationDbContextcs))]
-    [Migration("20230302064135_AlimentarTablaHotel")]
-    partial class AlimentarTablaHotel
+    [Migration("20230303170338_AlimentarTablaAlquileres")]
+    partial class AlimentarTablaAlquileres
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -73,8 +73,8 @@ namespace MagicHotel.Migrations
                             Id = 1,
                             Amenidad = "",
                             Detalle = "",
-                            FechaInicio = new DateTime(2023, 3, 1, 22, 41, 35, 806, DateTimeKind.Local).AddTicks(1468),
-                            FechaUpdate = new DateTime(2023, 3, 1, 22, 41, 35, 806, DateTimeKind.Local).AddTicks(1476),
+                            FechaInicio = new DateTime(2023, 3, 3, 9, 3, 38, 440, DateTimeKind.Local).AddTicks(421),
+                            FechaUpdate = new DateTime(2023, 3, 3, 9, 3, 38, 440, DateTimeKind.Local).AddTicks(439),
                             ImagenUrl = "",
                             Name = "Hotel Habana Libre...",
                             SquareMeters = 50,
@@ -86,8 +86,8 @@ namespace MagicHotel.Migrations
                             Id = 2,
                             Amenidad = "",
                             Detalle = "",
-                            FechaInicio = new DateTime(2023, 3, 1, 22, 41, 35, 806, DateTimeKind.Local).AddTicks(1478),
-                            FechaUpdate = new DateTime(2023, 3, 1, 22, 41, 35, 806, DateTimeKind.Local).AddTicks(1479),
+                            FechaInicio = new DateTime(2023, 3, 3, 9, 3, 38, 440, DateTimeKind.Local).AddTicks(441),
+                            FechaUpdate = new DateTime(2023, 3, 3, 9, 3, 38, 440, DateTimeKind.Local).AddTicks(442),
                             ImagenUrl = "",
                             Name = "Hotel Nacional...",
                             SquareMeters = 60,
@@ -99,8 +99,8 @@ namespace MagicHotel.Migrations
                             Id = 3,
                             Amenidad = "",
                             Detalle = "",
-                            FechaInicio = new DateTime(2023, 3, 1, 22, 41, 35, 806, DateTimeKind.Local).AddTicks(1480),
-                            FechaUpdate = new DateTime(2023, 3, 1, 22, 41, 35, 806, DateTimeKind.Local).AddTicks(1480),
+                            FechaInicio = new DateTime(2023, 3, 3, 9, 3, 38, 440, DateTimeKind.Local).AddTicks(444),
+                            FechaUpdate = new DateTime(2023, 3, 3, 9, 3, 38, 440, DateTimeKind.Local).AddTicks(445),
                             ImagenUrl = "",
                             Name = "Hotel Copacavana...",
                             SquareMeters = 70,

@@ -73,7 +73,7 @@ namespace MagicHotel.Controllers
             }
             Hotel modelo = new()
             {
-                Id = hotelDto.Id,
+               
                 Name = hotelDto.Name,
                 Detalle = hotelDto.Detalle,
                 ImagenUrl = hotelDto.ImagenUrl,
