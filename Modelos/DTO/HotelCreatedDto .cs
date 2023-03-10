@@ -2,10 +2,8 @@
 
 namespace MagicHotel.Modelos.DTO
 {
-    public class HotelDto
+    public class HotelCreatedDto
     {
-        public int Id { get; set; }
-
         [Required]
         [MaxLength(30)]
         public string Name { get; set; }

@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MagicHotel.Datos
 {
-    public class AplicationDbContextcs:DbContext
+    public class AplicationDbContextcs : DbContext
     {
-        public AplicationDbContextcs(DbContextOptions<AplicationDbContextcs>options) : base(options) 
+        public AplicationDbContextcs(DbContextOptions<AplicationDbContextcs> options) : base(options)
         {
 
         }
@@ -59,6 +59,6 @@ namespace MagicHotel.Datos
                 );
         }
 
-        
+
     }
 }

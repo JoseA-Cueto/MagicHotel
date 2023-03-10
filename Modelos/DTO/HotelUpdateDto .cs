@@ -2,8 +2,9 @@
 
 namespace MagicHotel.Modelos.DTO
 {
-    public class HotelDto
+    public class HotelUpdateDto
     {
+        [Required]
         public int Id { get; set; }
 
         [Required]
@@ -12,8 +13,9 @@ namespace MagicHotel.Modelos.DTO
         public string Detalle { get; set; }
         [Required]
         public double Tarifa { get; set; }
-
+        [Required]
         public int Tourist { get; set; }
+        [Required]
         public int SquareMeters { get; set; }
         public string ImagenUrl { get; set; }
         public string Amenidad { get; set; }
